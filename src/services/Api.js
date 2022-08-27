@@ -13,7 +13,7 @@ baseQuery: fetchBaseQuery({
 endpoints: (builder) => ({
 //    POPULER !
    populer : builder.query({
-    query: () => `movie/popular?${process.env.REACT_APP_TMDB_KEY}`
+    query: () => `movie/popular?${process.env.REACT_APP_MDB_KEY}`
      
 }),
 
