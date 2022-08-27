@@ -1,5 +1,4 @@
 import { configureStore} from "@reduxjs/toolkit";
-import { setupListeners } from "@reduxjs/toolkit/dist/query";
 
 // Endpoints
 import { moviesApi } from "../services/Api";
