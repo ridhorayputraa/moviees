@@ -5,9 +5,7 @@ import { usePopulerQuery } from "../services/Api";
 import { Box } from "@mui/material";
 
 import MovieCard from "../components/MovieCard";
-const api = process.env.REACT_APP_API_KEY
 const Popular = () => {
-    console.log(api)
   
   const { data, error, isLoading} = usePopulerQuery();
   
