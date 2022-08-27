@@ -13,16 +13,16 @@ baseQuery: fetchBaseQuery({
 endpoints: (builder) => ({
 //    POPULER !
    populer : builder.query({
-    query: () => `movie/popular?${process.env.REACT_APP_API_KEY}`
+    query: () => `movie/popular?${process.env.REACT_APP_TMDB_KEY}`
      
 }),
 
    trending: builder.query({
-    query: () => `trending/all/day?${process.env.REACT_APP_API_KEY}`
+    query: () => `trending/all/day?${process.env.REACT_APP_TMDB_KEY}`
     
 }),
    upcoming: builder.query({
-    query: () => `movie/upcoming?${process.env.REACT_APP_API_KEY}`
+    query: () => `movie/upcoming?${process.env.REACT_APP_TMDB_KEY}`
    
 })
 }),

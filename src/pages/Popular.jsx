@@ -9,6 +9,10 @@ const Popular = () => {
   
   const { data, error, isLoading} = usePopulerQuery();
   
+
+  
+
+
     return (
         <>
             
